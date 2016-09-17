@@ -1,0 +1,166 @@
+@charset "utf-8";
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#outerwrapper {
+	width: 1300px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	color: #FFF;
+	background-color: #000
+}
+#header {
+	float: left;
+	width: 100%;
+	color: #FFF;
+	background-color: #000;
+}
+.logo {
+	float: left;
+	width: 60%;
+	border: thick inset #FFF;
+}
+#nav {
+	color: #FFF;
+	background-color: #000;
+	float: left;
+	width: 100%;
+}
+
+#nav ul {
+	text-align: center;
+	display: block;
+	list-style-type: none;
+}
+#nav ul li {
+	display: inline;
+	padding-right: 2em;
+	padding-left: 0em;
+}
+#nav ul li a:link {
+	font-size: 100%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#nav ul li a:visited {
+	font-size: 100%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	font-size: 100%;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#content {
+	float: left;
+	width: 100%;
+	overflow: auto;
+}
+
+#leftColumn {
+	padding: 1em;
+	float: left;
+	width: 47%;
+}
+
+#rightColumn {
+	padding: 1em;
+	float: right;
+	width: 47%;
+	text-align: right;
+}
+
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	width: 100%;
+}
+
+.illusFloatLeft {
+	padding: 10px;
+	float: left;
+}
+
+.illusFloatRight {
+	padding: 10px;
+	float: right;
+}
+
+#shuttle {
+	float: left;
+	width: 34.5em;
+}
+#name {
+	text-align: right;
+	width: 30em;
+	padding-top: .625em;
+	padding-bottom: .625em;
+}
+#shuttle.input {
+	font-size: 100%;
+	width: 15em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	padding-top: .0625em;
+	padding-right: .1875em;
+	padding-bottom: .0625em;
+	padding-left: .1875px;
+}
+#city {
+	text-align: right;
+	width: 30em;
+	padding-top: .625em;
+	padding-bottom: .625em;
+}
+#address {
+	text-align: right;
+	width: 30em;
+	padding-top: .625em;
+	padding-bottom: .625em;
+}
+#state {
+	text-align: right;
+	width: 30em;
+	padding-top: .625em;
+	padding-bottom: .625em;
+}
+#zip {
+	text-align: right;
+	width: 30em;
+	padding-top: .625em;
+	padding-bottom: .625em;
+}
+#email {
+	text-align: right;
+	width: 30em;
+	padding-top: .625em;
+	padding-bottom: .625em;
+}
+
+#confirmemail {
+	text-align: right;
+	width: 30em;
+	padding-top: .625em;
+	padding-bottom: .625em;
+}
+
+#submit {
+	text-align: center;
+	width: 30em;
+	padding-top: .625em;
+	padding-bottom: .625em;
+}
+
+#reset {
+	text-align: center;
+	width: 30em;
+	padding-top: .625em;
+	padding-bottom: .625em;
+}
